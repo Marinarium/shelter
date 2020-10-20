@@ -1,0 +1,18 @@
+@import "base/reset";
+@import "base/fonts";
+@import "abstracts/variables";
+@import "abstracts/mixins";
+@import "abstracts/media";
+
+@import "components/header";
+@import "components/logo";
+@import "components/burger";
+@import "components/main-menu";
+@import "components/all-friends";
+@import "components/section-title";
+@import "components/card";
+@import "components/link-button";
+@import "components/pagination";
+
+@import "components/footer";
+@import "components/contacts";
