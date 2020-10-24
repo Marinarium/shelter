@@ -80,6 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 /*---------Text------*/
 /*------------Controls-------*/
 .header {
+  overflow: hidden;
   position: absolute;
   width: 100%;
   top: 0; }
@@ -231,16 +232,8 @@ h1, h2, h3, h4, h5, h6 {
     transition-property: right, width, height, padding, opacity;
     transition-duration: 300ms; }
     .main-menu__list.visually-hidden_menu {
-      position: absolute;
-      white-space: nowrap;
-      width: 1px;
-      height: 1px;
-      overflow: hidden;
-      border: 0;
-      padding: 0;
-      margin: -1px;
-      opacity: 0;
       right: -320px;
+      opacity: 0;
       transition-property: right, width, height, padding, opacity;
       transition-duration: 300ms; } }
 
